@@ -1,0 +1,291 @@
+body
+{
+	/* background-color: #f8f8f8; */
+	color:#8c2b23;	
+	border-style:none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	float:top;
+	z-index: -1;
+	background-image: url("img/FOTO10MDA_BGR_BODY.png");	
+}
+
+.bg-bosco{
+	background-color: #8c2b23;
+}
+
+.nav-item{	
+	font-weight:900;
+}
+/* (B) RESPONSIVE IMAGE */
+.textcenter img { width: 100%; }
+.textcenter { max-width: 600px; } /* OPTIONAL */
+ 
+/* (C) CENTER TEXT ON IMAGE */
+.textcenter { position: relative; }
+.textcenter figcaption {
+  position: absolute;
+  /* VERTICAL CENTER */
+  top: 50%;
+  left: 0;
+  /* HORIZONTAL CENTER */
+  width: 100%;
+  text-align: center;
+}
+
+.localizacao
+{
+	margin-top:opx;	
+	padding-left:80px;
+	padding-top:20px;
+	float:left;
+}
+
+.gif
+{
+	float:center;
+	margin-left:213.5px;
+	margin-top:40px;
+}
+
+.video
+{
+	float: center;
+	padding-left:0px;
+	padding-top: 15px;
+	padding-top: 15px;
+	margin-bottom:15px;
+}
+
+.cabecalho /*cabeçalho*/
+{
+	background-color: none;
+	margin: 0px;
+	height: 90px;
+	float:left;
+	text-decoration:none;		
+}
+
+.logo4 /*cabeçalho*/
+{
+	height:80px;
+	background-color: none;
+	margin-top:5px;
+}
+
+.titulo /*cabeçalho*/
+{
+	background-color: none;
+	margin-top: -65px;
+	margin-left:115px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:40px;
+	color: #8c2b23;	
+	padding:0px;
+	opacity:1.5;
+	font-weight:900;
+	text-decoration:none;	
+}
+
+textarea
+{
+	width:648.5px;
+	height:100px;
+}
+
+.conteudo
+{
+	background-color: none;
+	padding-top:150px;
+	padding-left:0px;
+	padding-right:0px;
+	height:100%;
+	z-index:-1;	
+	padding-bottom:20px;
+}
+
+.iso9000
+{
+	padding-top:10px;
+	height:200px;
+}
+
+.texto	
+{
+	color: #8c2b23;
+	text-align:justify;
+	font-size:18px;
+	text-decoration:none;
+	padding-left:10px;
+}
+
+.texto1	
+{
+	color: #8c2b23;	
+	text-align:justify;
+	font-size:18px;
+	text-decoration:none;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.texto2	
+{
+	color: #8c2b23;
+	text-align:justify;
+	font-size:18px;
+	text-decoration:none;
+	margin-bottom:20px;
+	padding:20px 20px;;
+	padding-top:10px;
+}
+.texto5	
+{
+	color: #8c2b23;	
+	text-align:justify;
+	font-size:18px;
+	text-decoration:none;
+	margin-left:117px;
+	margin-top:-170px;
+}
+.textofc	
+{
+	color: #8c2b23;	
+	text-align:left;	
+	text-decoration:none;
+	padding-left:20px;
+	padding-top:10px;
+}
+
+.textofc1
+{
+	color: #8c2b23;
+	
+	text-align:left;
+	
+	text-decoration:none;
+	padding-left:20px;
+	padding-top:10px;
+}
+/*background-color:rgba(255, 255, 255, 0.5);*/
+.obras
+{
+	background-color:none;
+	position: relative;
+	float: left;
+	width:100%;
+	margin-left: auto;
+	margin-right:auto;
+	padding-bottom:0px;	
+	height:100%;
+}
+
+.textofoto
+{
+	
+	color: #8c2b23;	
+	text-align:left;
+	font-size:16px;
+	text-decoration:none;
+	padding:4px;	
+}
+
+.fotoright
+{
+	float:right;
+	width:500px;
+	
+	background-color:#f8f8f8;
+	margin-left:1.5px;
+	margin-right:109px;
+	margin-top:0.5px;
+	padding-bottom:0px;	
+	border-radius:10px;
+}
+
+.fotoleft
+{
+	float:left;
+	width:500px;
+	
+	background-color:#f8f8f8;
+	margin-left:109px;
+	margin-right:1.5px;
+	margin-top:0.5px;
+	padding-bottom:0px;	
+	border-radius:10px;
+}
+
+	.obrasfotos
+{
+	z-index:+1;
+}
+
+.destaque /*conteudo*/
+{
+	font-weight:900;
+	color: #8c2b23;
+}
+
+.titulopadrao /*conteudo*/
+{
+	font-size: 20px;
+	font-weight:900;
+	color: rgba(33, 58, 42, 1);
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+}
+
+.subtitulo /*conteudo*/
+{
+	background-color: none;
+	/* text-align:center; */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:25px;
+	color: #8c2b23;	
+	padding:0px;
+	opacity:1.5;
+	font-weight:900;
+	padding-top:20px;
+	padding-bottom:20px;
+	z-index:+1;
+}
+
+.entradaobrig /*formulários*/
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color: #8c2b23;
+	border:none;
+}
+
+
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+	font-size:15px;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: rgba(177,56,51,.6);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+	font-weight:900;
+	font-size:15px;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(177,56,51,.8);
+	font-weight:900;
+	font-size:18px;
+	margin: 8px 0;
+}
